@@ -112,6 +112,38 @@
             <td>1000</td>
         </tr>
     </table>
-     
+     <hr>
+     <h4>Objective-c</h4>
+     <blockquote cite="https://en.wikipedia.org/wiki/Objective-C">
+        Objective-C is a general-purpose, object-oriented programming language that adds Smalltalk-style 
+        messaging to the C programming language. It was the main programming language 
+        supported by Apple for macOS, iOS, and their respective application 
+        programming interfaces (APIs), Cocoa and Cocoa Touch, until the introduction of Swift in 2014
+    </blockquote>
+    <a href="https://en.wikipedia.org/wiki/Objective-C">Find  reference here</a>
+
+    <pre>
+        #import <Foundation/Foundation.h>
+
+        @interface SampleClass:NSObject
+        - (void)sampleMethod;
+        @end
+
+            @implementation SampleClass
+
+            - (void)sampleMethod {
+            NSLog(@"Hello, World! \n");
+        }
+
+         @end
+
+        int main() {
+                /* my first program in Objective-C */
+                 SampleClass *sampleClass = [[SampleClass alloc]init];
+                [sampleClass sampleMethod];
+                return 0;
+         }
+    </pre>
+    <a href="https://www.tutorialspoint.com/objective_c/objective_c_program_structure.htm">Find code reference here</a>
     </body>
 </html>
